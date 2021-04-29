@@ -30,7 +30,7 @@ def main():
     #input user question
     question = input(str("What is your question? : "))
     #this line of code generate a random index from numbers 0 to the length of responses list
-    random_index = random.randint(1, len(responses))
+    random_index = random.randint(0, len(responses))
     #return a responses with the random index
     print(responses[random_index])  
 
